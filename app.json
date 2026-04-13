@@ -1,16 +1,17 @@
 {
   "expo": {
-    "name": "KanaQuest",
-    "slug": "KanaQuest",
+    "name": "Hiragame",
+    "slug": "Hiragame",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "newArchEnabled": true,
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": false,
+    "scheme": "hiragame",
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#0E0B1F"
     },
     "ios": {
       "supportsTablet": true
@@ -21,10 +22,14 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.anonymous.hiragame"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-web-browser"
+    ]
   }
 }
